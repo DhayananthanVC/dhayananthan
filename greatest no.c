@@ -3,7 +3,7 @@
 void main()
 {
 int i,a[i],b=0;
-printf("enter the no 1,2 and 3")
+printf("enter the no 1,2 and 3");
 for(i=0;i<3;i++)
 {
 scanf("%d",&a[i]);
