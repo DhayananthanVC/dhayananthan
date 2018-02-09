@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 void main() {
-    int a,n;
+    int a,n,b=0,c;
     printf("enter the no.");
     scanf("%d",&a);
     if(a==1)
@@ -18,21 +18,19 @@ void main() {
     for(n=2;n<a;n++)
     
     {
+        c=a%n;
         
-    if(a%n==0)
+    if(c==0)
     {
-        printf("not a prime");
-        break;
-         }
-         
-    
-    
-    else    {
-        printf("prime");
-        break;
+        b++;
+       
+    }
+    }
+        if(b==0)
+            printf("prime");
+        else
+            printf("not prime");
         
-    }
-    }
     }
     }
     
