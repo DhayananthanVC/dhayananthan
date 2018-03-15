@@ -7,20 +7,19 @@ printf("enter the words ");
 scanf("%s%s",a,b);
 for(i=0;i<=100;i++)
 {
-if(a[i]='\0')
+if(a[i]=='\0')
 {
   
- i=n;
+n=i;
+break;
 }
 }
-
+printf("%d",n);
 do{
     a[n]=b[c];
     n++;
     c++;
 }while(b[c]!='\0');
-for(i=0;a[i]!='\0';i++)
-{
-    printf("%s",a[i]);
-}
+a[n]='\0';
+printf("\n %s",a);
     }
