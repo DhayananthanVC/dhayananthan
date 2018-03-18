@@ -12,9 +12,12 @@ void main()
             b++;
         }
          if(a[i]>='1' && a[i]<='9')
+         {
+             c++;
+         }
     }    
      n=strlen(a);
-     if(b==1 && c==1)
+     if(b>=1 && c>=1)
   {
       printf("yes");
   }
@@ -22,3 +25,7 @@ void main()
   {
       printf("no");
   }
+
+  
+    
+}
